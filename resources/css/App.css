@@ -1,0 +1,36 @@
+/*html {*/
+    /*height: 100%;*/
+    /*margin: 0;*/
+    /*overflow: hidden;*/
+    /*padding: 0;*/
+/*}*/
+
+body {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    background-color: #e2e2e2;
+    /*background-image: url('../images/background.jpg');*/
+    /*background-size: cover;*/
+}
+
+.CenterBox {
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+}
+
+.button {
+    background-color: #ffb31c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    box-shadow: #2e2e2e;
+}
